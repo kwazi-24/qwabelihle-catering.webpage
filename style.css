@@ -16,7 +16,7 @@ body {
     color: white;
     font-family: Arial, sans-serif;
 }
-/* NAVIGATION BAR */ 
+
 .navbar {
     position: sticky;
     top: 0;
@@ -36,45 +36,47 @@ body {
 
     backdrop-filter: blur(5px);
 }
-.navbar ul { 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    gap: 35px; 
-    list-style: none; 
-    margin: 0; 
-    padding: 0; 
-} 
-.navbar a { 
-    position: relative; 
-    color: white; 
-    text-decoration: none; 
-    font-family: Arial, sans-serif; 
-    font-size: 16px; 
-    font-weight: bold; 
-    padding: 8px 0; 
-    transition: 0.3s; 
-} 
-/* GOLD LINE UNDER NAVIGATION LINKS */ 
-.navbar a::after { 
-    content: ""; 
-    position: absolute;
-    left: 0; 
-    bottom: 0; 
-    width: 0; 
-    height: 2px; 
-    background: #FFD700; 
-    transition: 0.3s; 
-} 
-/* HOVER EFFECT */ 
-.navbar a:hover { 
-    color: #FFD700; 
-}
-.navbar a:hover::after { 
-    width: 100%; 
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-/* MAIN BACKGROUND */
+.navbar a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 0;
+    transition: 0.3s;
+}
+
+.navbar a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #FFD700;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #FFD700;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
 .background {
     position: relative;
     width: 100%;
@@ -569,4 +571,3 @@ footer p {
         height: 120px;
     }
 }
-
